@@ -1,0 +1,289 @@
+Assignment 1: A multi page website for ONAHZ HAIR CLINIC
+
+LLM used : ChatGpt
+
+Multiple Prompts Used.
+
+
+PROMPT 1: INTRODUCTION
+Good day chatgpt, you have really helped me a lot thank you. 
+I have a booming functional hair business branded ONAHz HAIR CLINIC., but I don’t have a website for it. 
+Help me develop and create a full website of 6 pages(home, about, services, gallery, blog and contact pages)
+This website will be a representation of what my brand is; which is reliable, trustworthy, and 100% customer’s satisfaction. 
+This website will also help my customers have a close feel of my business. They can access the website to make bookings, drop a feedback, and get to know us better, see our services and also get educative hair care tips.
+Be sure to capture the girly touch the brand tends to portray to her customers, I want it to be chic classy and cute. 
+Please add navigation links for other pages and then navigation links to scroll through the different    sections of each pages
+Kindly put comments in your code to enable my team members to interpret and understand the code.
+Kindly use clear html and tailwind css codes for this. 
+
+PROMPT 2: FOR THE NAVIGATION SECTION
+The menu section should be sticky 
+The name of the brand logo should be at the top left corner.
+The menu with dropdown items linking the user to the different pages (home, about us, services, gallery,  contact, and a blog page)
+Provide only codes for the menu section for now.
+
+PROMPT 3: FOR THE HOME PAGE
+We would take building this website step by step and gradually too. 
+The homepage, this is the first page my customers would see once they enter the website so it should be visually appealing to the eyes, 
+The hero section should occupy at least 30% of the length of the page and 100% of the breath of the page.
+The hero section should be vertically partitioned into two; one side should display a picture of a properly styled wig, with the right aspect ratio and the right pixelization.
+The other side should have these words boldly written welcome to onahz hair clinic; with a brief introduction
+
+PROMPT 4: FOR THE FEATURED SECTION OF THE HOMEPAGE
+The featured section should have a heading and a subheading 
+The section should have 4 cards displaying our signature services which are Wig installation, wig revamp and treatment, custom wig styling, customization and wigging.
+Below that there would be a display of 3-4 transformation pictures showing just some of the work done.
+
+PROMPT 5: NEXT UP IS THE WHY CHOOSE US SECTION
+Now this is the section that points to our skilled professionalism. 
+It should have a brief emotional heading and a brief tagline
+It should have 6-8 benefit cards displaying our core values (Hair transformation excellence, precision and craftsmanship, beauty enhancement not just styling, wig care and longevity focus, client confidence first, quality materials and safe techniques, trust and professional integrity,  personalized styling experience. 
+THE TESTIMONIAL SECTION
+This section is actually very important as well, because it helps my potential client build a sense of trust, because I believe seeing other people’s reviews will help facilitate trust.
+It would have a short heading
+It would also have a subheading.
+It should also have testimonial cards, each card should include; clients name or initials, service used (e.g wig revamping), star reviews, short review text. 
+
+PROMPT 6: FOR THE CALL ACTION SECTION
+This section gives the clients an opportunity to either book an appointment, and probably see a bit more.
+It should have a heading something like ready for your hair transformation?
+Subheadings saying something like ‘book your appointment today and let us
+create your perfect look.
+Then it should have two call action buttons, one saying book your appointment and the other saying view our services and this second button leads directly to the services page.
+Add a small line under the buttons.
+
+PROMPT 7: FOR THE FOOTER SECTION
+The footer section is like a brief summary of the whole webpage  and this will cut across all the pages.
+It should have a brand section at the top left/first column
+The brand section would have at the brand name and a short brand description as well.
+It should also have quick navigation links same as the links on the navbar to help users move around quickly.
+There would also a services section, to remind visitors what I specialize in.
+It would also have contact information to make it easy for clients to reach you. eg
+Phone number, Email, Location , WhatsApp.
+Social media links as well should be included
+Then a copyright section at the bottom. 
+
+
+PROMPT 8: NOW LET US MOVE TO THE ABOUT PAGE
+This page is very important; this page helps our client understand our values, mission, vision and principles better. Its helps us tell our story and build trust. It helps answer the questions; Who is Onahz Hair Clinic? What problem do you solve? Why should clients trust you? What makes you different? What services do you provide?
+Please add navigation links for other pages and then navigation links to scroll through the different sections of this page 
+Kindly put comments in your code to enable my team members to interpret and understand the code.
+Use clear html and tailwind css codes only.	
+
+PROMPT 9: HERO SECTION		
+The hero section would have a heading; it would also have a short introduction briefly introducing us and a professional image. 
+OUR STORY SECTION 
+This section highlights how we started and the passion behind the business, how we started.
+It is going to have a paragraph on how we started.
+It would also have a paragraph on mission and passion behind the brand.
+
+
+PROMPT 10: NEXT SECTION  WOULD BE OUR MISSION AND VISION SECTION
+This section is aimed at stating what we aim to achieve for every customer and how to aim to achieve that.
+It would have a heading and a little description.
+It would have a mission and vision statement
+	
+PROMPT 11: THEN THE MEET THE FOUNDER SECTION
+I believe that familiarity builds trust, this section would help customers have a face to the brand and it helps facilitate trust.
+It would have a professional photo
+A brief profile,  credentials and experience. 
+
+PROMPT 12: CALL TO ACTION SECTION
+This section is simply for clients to book our services and being convinced about what we do.
+
+PROMPT 13: NEXT UP IS THE SERVICES PAGE
+This aims to show everything we offer. It advertises our work and what we offer so it is very important.
+Please add navigation links for other pages and then navigation links to scroll through the different sections of this page 
+Kindly put comments in your code to enable my team members would be able to interpret and understand the code.
+Use clear html and tailwind css codes only.
+
+PROMPT 14: FOR THE HERO SECTION
+This is the first thing visitors see. This should be visually appealing and eye catching.
+This should have a catchy Page heading 
+It should also have a Short introduction briefly explaining our services
+It should have a Professional hair-care image displaying most of the services 
+And a Book Consultation button to make it easy for customers to book.
+
+PROMPT 15: OUR SERVICES SECTION
+This is the most important section.
+It displays our services to our customers.
+Display services as cards.
+It should have services like this
+Wig Installation service (Frontal Install, Closure Install Glueless Install)
+Wig Revamp service (Wig Washing/treatment Wig Restoration/silk infusion Wig Customization)
+Wig Styling services (Curling, Straightening, Bridal Styling, coloring and bleaching )
+Customized wigging (bump free wigs, proper transfer of head measurement,)
+
+
+PROMPT 16: WHY CHOOSE US SECTION
+This section helps convince visitors. They See reasons to book.
+Kindly Use 4 cards, to illustrate this;
+These are the contents of the card;
+Professional Wig Care
+Every client receives expert attention.
+Personalized Solutions
+Treatments are tailored to individual needs.
+Quality Products
+We use trusted products and techniques.
+Client Satisfaction
+Our goal is healthy hair and happy clients.
+
+
+PROMPT 17: Frequently Asked Questions (FAQ) section
+This section adds professionalism and also helps answer some questions the customer might have.
+Examples:
+How long does wig revamp/styling take?
+Do I need an appointment?
+How often should I treat/revamp my wigs?
+Can damaged hair be restored?
+Let this section have questions like this.
+
+PROMPT 18: Call To Action Section
+This section also actively helps them book a section.
+Since we have created this section before on previous pages, let it be the same.
+
+PROMPT 19: NOW THE GALLERY PAGE.
+Good day chat gpt how are you doing, I hope you are good, we can continue from where we stopped:
+So far I like the outcome of all the other section so welldone.
+Now we are focused on the gallery page of the section.
+This page aim showcase my work visually, the clients can get see visually see our work and get the conviction they need. 
+Please add navigation links for other pages and then navigation links to scroll through the different sections of this page and make the both navigation sections sticky.
+Kindly put comments in your code to enable my team members would be able to interpret and understand the code.
+Use clear html and tailwind css codes only.
+	
+PROMPT 20: FOR THE HERO SECTION
+The section should have a beautiful heading, 
+A sub heading or brief description 
+It should also have an image
+And a call to action button. 
+	
+PROMPT 21: BEFORE AND AFTER SECTION.
+This page should be the star of the show. It builds a lot of trust.
+I would like you to use image cards to display;
+The before and after of our different services;
+Wig revamp
+Wig installation
+Wig styling 
+Wigging.
+
+PROMPT 22: OUR PROCESS SECTION
+This particular section helps give our client an insight on how we work, like a summary of the processes.
+It should have four simple cards showing them the necessary steps:
+Step 1: Consultation 	
+Step 2: treatment
+Step 3: styling 
+Step 4: final transformation
+
+PROMPT 23: CALL TO ACTION SECTION
+It should have two buttons politely urging the customers to take an action
+A book a consultation section and a contact us section that links to the contact page
+
+
+PROMPT 24: LET US MOVE TO THE BLOG PAGE
+This page is aimed at educating my clients, to build trust, position onahz hair clinic as an authority, shows our expertise and build long term relationship, and also encourage them to take action and this improves website visibility.
+
+PROMPT 25: FOR THE NAVIGATION AND HERO SECTION.
+The page should have a navigation link to all other pages and also a navigation link to the different sections of the page, both navigation links should be sticky.
+The hero section
+Aims to introduce visitors to my blog and encourage them to explore my content.
+It should have a heading and a subheading
+And a call to action button 
+
+PROMPT 26: NEXT IS THE FEATURED ARTICLE SECTION
+This section aims to Highlight your most important or latest article.
+Display these as cards with topics like :
+Display as a large card with:
+Featured image
+Article title
+Short description 
+Read More button
+
+PROMPT 27: THE NEXT SECTION IS THE LATEST ARTICLE SECTION;
+Display these articles as grid cards
+Examples:
+Article 1
+How Often Should You Wash Your Wig?
+Article 2
+Signs That Your Wig Needs a Revamp
+Article 3
+How To Properly Store Your Wigs
+Article 4
+Common Hair Mistakes That Cause Damage
+Article 5
+Benefits of Professional Wig Treatment
+
+PROMPT 28: THEN THE NEXT SECTION SHOULD BE THE QUICK HAIR CARE TIPS SECTION	
+This is different from the articles because i believe it will give visitors fast, practical advice.
+Kindly Use four small cards: and it would have things like this;
+Sleep with a satin bonnet.
+Avoid excessive heat on your wigs.
+Use sulfate-free products.
+Store your wigs properly.
+
+PROMPT 29: THE NEXT SECTION IS THE NEWSLETTER SECTION
+This section helps them stay updated and even more eager to patronize and build a relationship with the brand.
+It should have a heading and a sub-heading
+It should also have a form for email input and a call to action button
+
+PROMPT 30: THEN THE CALL TO ACTION SECTION.
+Just replicate the call to action section from the previous page.
+
+
+PROMPT 31: THE LAST BUT NOT THE LEAST THE CONTACT PAGE 
+For ONAHz Hair Clinic, the aim of the Contact Page is:
+To make it easy for clients to communicate with ONAHz Hair Clinic, ask questions, book consultations, make inquiries about services, and build a direct relationship with the brand.
+More specifically the page aims to:
+Provide Easy Communication
+Build Trust and Credibility
+Encourage Bookings and Consultations
+Answer Questions and Resolve Concerns
+Strengthen Client Relationships
+Encourage Visitors to Take Action
+
+PROMPT 32: THE NAVIGATION AND HERO SECTION.
+The page should have a navigation link to all other pages and also a navigation link to the different sections of the page, both navigation links should be sticky.
+FOR THE HERO SECTION
+This immediately encourages visitors to reach out.
+It should have a heading and subheading
+And call to action buttons
+
+PROMPT 33: THE CONTACT INFORMATION SECTION
+This aims Provide all ways to reach the business.
+This section should have these cards:
+Address
+Phone Number
+Email Address
+WhatsApp
+Social Media Links
+	
+
+PROMPT 34: THE CONTACT FORM SECTION
+This is one of the most important sections
+The form should have these fields:
+Full Name 
+Email Address 
+Phone Number 
+Service Interested In 
+Message
+And then a call to action button to send message. 
+
+PROMPT 35: THE BUSINESS HOURS SECTION.
+This section should have a subheading stating how we our policy is serious and we keep to it.
+I believe this section adds professionalism and helps clients know when to contact you.
+It should have working days and hours.
+
+PROMPT 36: THEN THE LOCATION SECTION
+This Help clients know where you are located and I believe a location would help foster trust
+What to include
+Clinic Address 
+Embedded map placeholder 
+Short directions
+Then finally the last section the frequently asked questions section
+This is useful because I believe people would often have questions before contacting me
+Examples of some questions :	
+Do I need an appointment?
+How long does wig revamp take?
+Can I book through WhatsApp?
+Do you offer home services?
+
+This all for now, thank you for your help.
