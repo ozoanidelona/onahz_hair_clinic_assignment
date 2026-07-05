@@ -37,65 +37,79 @@
         <nav>
 
             <ul
-                class="hidden md:flex items-center gap-8 font-medium text-[#1F2937]"
+    class="hidden md:flex items-center gap-8 font-medium text-[#1F2937]"
+>
+
+    <!-- HOME -->
+    <li>
+        <a
+            href="index.html"
+            class="hover:text-pink-600 transition"
+        >
+            Home
+        </a>
+    </li>
+
+    <!-- BLOG (ACTIVE PAGE) -->
+    <li>
+        <a
+            href="blog.html"
+            class="text-pink-600 font-semibold"
+        >
+            Blog
+        </a>
+    </li>
+
+    <!-- ================= PAGES DROPDOWN ================= -->
+    <li class="relative group">
+
+        <!-- Dropdown Button -->
+        <button
+            type="button"
+            class="hover:text-pink-600 transition flex items-center gap-1"
+        >
+            Pages
+            <i class="fa-solid fa-angle-down"></i>
+        </button>
+
+        <!-- Dropdown Menu -->
+        <div
+            class="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg rounded-lg min-w-45 z-50"
+        >
+            <a
+                href="about.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
             >
+                About
+            </a>
 
-                <li>
-                    <a
-                        href="index.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Home
-                    </a>
-                </li>
+            <a
+                href="services.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Services
+            </a>
 
-                <li>
-                    <a
-                        href="about.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        About
-                    </a>
-                </li>
+            <a
+                href="gallery.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Gallery
+            </a>
 
-                <li>
-                    <a
-                        href="services.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Services
-                    </a>
-                </li>
+            <a
+                href="contact.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Contact
+            </a>
+        </div>
 
-                <li>
-                    <a
-                        href="gallery.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Gallery
-                    </a>
-                </li>
+    </li>
+    <!-- ================= END OF DROPDOWN ================= -->
 
-                <li>
-                    <a
-                        href="blog.html"
-                        class="text-pink-600 font-semibold"
-                    >
-                        Blog
-                    </a>
-                </li>
-
-                <li>
-                    <a
-                        href="contact.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-        </ul>
+</ul>
+        
 
 <details class="md:hidden relative">
     <summary class="list-none cursor-pointer text-3xl text-pink-600">
@@ -394,7 +408,7 @@
                     href="#"
                     class="inline-block mt-6 text-[#E91E63] font-semibold"
                 >
-                    Read Article →
+                    Read Article <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
@@ -413,7 +427,7 @@
                     href="#"
                     class="inline-block mt-6 text-[#E91E63] font-semibold"
                 >
-                    Read Article →
+                    Read Article <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
@@ -432,7 +446,7 @@
                     href="#"
                     class="inline-block mt-6 text-[#E91E63] font-semibold"
                 >
-                    Read Article →
+                    Read Article <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
@@ -451,7 +465,7 @@
                     href="#"
                     class="inline-block mt-6 text-[#E91E63] font-semibold"
                 >
-                    Read Article →
+                    Read Article <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
@@ -470,7 +484,7 @@
                     href="#"
                     class="inline-block mt-6 text-[#E91E63] font-semibold"
                 >
-                    Read Article →
+                    Read Article <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
@@ -969,7 +983,7 @@
 
                 <p class="text-sm text-gray-400 text-center md:text-right">
 
-                    Designed with ❤️ for elegance, confidence & beauty.
+                    Designed with  for elegance, confidence & beauty.
 
                 </p>
 

@@ -38,67 +38,80 @@
 
         <nav>
 
-            <ul
-                class="hidden md:flex items-center gap-8 font-medium text-[#1F2937]"
+           <ul
+    class="hidden md:flex items-center gap-8 font-medium text-[#1F2937]"
+>
+
+    <!-- HOME -->
+    <li>
+        <a
+            href="index.html"
+            class="hover:text-pink-600 transition"
+        >
+            Home
+        </a>
+    </li>
+
+    <!-- GALLERY (ACTIVE PAGE) -->
+    <li>
+        <a
+            href="gallery.html"
+            class="text-[#E91E63] font-semibold"
+        >
+            Gallery
+        </a>
+    </li>
+
+    <!-- ================= PAGES DROPDOWN ================= -->
+    <li class="relative group">
+
+        <!-- Dropdown Button -->
+        <button
+            type="button"
+            class="hover:text-[#E91E63] transition flex items-center gap-1"
+        >
+            Pages
+            <i class="fa-solid fa-angle-down"></i>
+        </button>
+
+        <!-- Dropdown Menu -->
+        <div
+            class="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg rounded-lg min-w-45 z-50"
+        >
+            <a
+                href="about.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-[#E91E63]"
             >
+                About
+            </a>
 
-                <li>
-                    <a
-                        href="index.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Home
-                    </a>
-                </li>
+            <a
+                href="services.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-[#E91E63]"
+            >
+                Services
+            </a>
 
-                <li>
-                    <a
-                        href="about.html"
-                        class="hover:text-[#E91E63] transition"
-                    >
-                        About
-                    </a>
-                </li>
+            <a
+                href="blog.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-[#E91E63]"
+            >
+                Blog
+            </a>
 
-                <li>
-                    <a
-                        href="services.html"
-                        class="hover:text-[#E91E63] transition"
-                    >
-                        Services
-                    </a>
-                </li>
+            <a
+                href="contact.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-[#E91E63]"
+            >
+                Contact
+            </a>
+        </div>
 
-                <li>
-                    <a
-                        href="gallery.html"
-                        class="text-[#E91E63] font-semibold"
-                    >
-                        Gallery
-                    </a>
-                </li>
+    </li>
+    <!-- ================= END OF DROPDOWN ================= -->
 
-                <li>
-                    <a
-                        href="blog.html"
-                        class="hover:text-[#E91E63] transition"
-                    >
-                        Blog
-                    </a>
-                </li>
-
-                <li>
-                    <a
-                        href="contact.html"
-                        class="hover:text-[#E91E63] transition"
-                    >
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-           
-            </ul>
+</ul>
+            
 
 <details class="md:hidden relative">
     <summary class="list-none cursor-pointer text-3xl text-pink-600">
@@ -965,7 +978,7 @@
 
                 <p class="text-sm text-gray-400 text-center md:text-right">
 
-                    Designed with ❤️ for elegance, confidence & beauty.
+                    Designed with  for elegance, confidence & beauty.
 
                 </p>
 

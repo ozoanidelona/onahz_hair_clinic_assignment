@@ -39,65 +39,78 @@
         <nav>
 
             <ul
-                class="hidden md:flex items-center gap-8 font-medium text-[#1F2937]"
+    class="hidden md:flex items-center gap-8 font-medium text-[#1F2937]"
+>
+
+    <!-- HOME -->
+    <li>
+        <a
+            href="index.html"
+            class="hover:text-pink-600 transition"
+        >
+            Home
+        </a>
+    </li>
+
+    <!-- CONTACT (ACTIVE PAGE) -->
+    <li>
+        <a
+            href="contact.html"
+            class="text-pink-600 font-semibold"
+        >
+            Contact
+        </a>
+    </li>
+
+    <!-- ================= PAGES DROPDOWN ================= -->
+    <li class="relative group">
+
+        <!-- Dropdown Button -->
+        <button
+            type="button"
+            class="hover:text-pink-600 transition flex items-center gap-1"
+        >
+            Pages
+            <i class="fa-solid fa-angle-down"></i>
+        </button>
+
+        <!-- Dropdown Menu -->
+        <div
+            class="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg rounded-lg min-w-45 z-50"
+        >
+            <a
+                href="about.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
             >
+                About
+            </a>
 
-                <li>
-                    <a
-                        href="index.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Home
-                    </a>
-                </li>
+            <a
+                href="services.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Services
+            </a>
 
-                <li>
-                    <a
-                        href="about.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        About
-                    </a>
-                </li>
+            <a
+                href="gallery.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Gallery
+            </a>
 
-                <li>
-                    <a
-                        href="services.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Services
-                    </a>
-                </li>
+            <a
+                href="blog.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Blog
+            </a>
+        </div>
 
-                <li>
-                    <a
-                        href="gallery.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Gallery
-                    </a>
-                </li>
+    </li>
+    <!-- ================= END OF DROPDOWN ================= -->
 
-                <li>
-                    <a
-                        href="blog.html"
-                        class="hover:text-pink-600 transition"
-                    >
-                        Blog
-                    </a>
-                </li>
-
-                <li>
-                    <a
-                        href="contact.html"
-                        class="text-pink-600 font-semibold"
-                    >
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-          </ul>
+</ul>
 
 <details class="md:hidden relative">
     <summary class="list-none cursor-pointer text-3xl text-pink-600">
@@ -747,33 +760,11 @@
             <!-- Map Placeholder -->
 
             <div
-                class="bg-white rounded-3xl shadow-xl h-96 flex items-center justify-center"
+                class="bg-white rounded-3xl shadow-xl h-96 overflow-hidden"
             >
 
-                <div
-                    class="text-center"
-                >
-
-                    <i
-                        class="fa-solid fa-location-dot text-6xl text-pink-600"
-                    ></i>
-
-                    <h3
-                        class="mt-6 text-2xl font-bold text-[#1F2937]"
-                    >
-                        Google Map Placeholder
-                    </h3>
-
-                    <p
-                        class="mt-4 text-[#6B7280]"
-                    >
-            
                 
-                    </p>
-
-                </div>
-
-            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.58207449988!2d7.507804673686532!3d6.447667393543709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a3e7bfe8c359%3A0x3042844ce20224fc!2sNwafor%20Orizu%20St%2C%20Asata%2C%20Enugu%20400102%2C%20Enugu!5e0!3m2!1sen!2sng!4v1783261857308!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
         </div>
 
@@ -1245,7 +1236,7 @@
 
                 <p class="text-sm text-gray-400 text-center md:text-right">
 
-                    Designed with ❤️ for elegance, confidence & beauty.
+                    Designed with  for elegance, confidence & beauty.
 
                 </p>
 

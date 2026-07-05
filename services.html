@@ -38,64 +38,77 @@
 
             <nav>
 
-                <ul class="hidden md:flex items-center gap-8">
+             <ul class="hidden md:flex items-center gap-8">
 
-                    <li>
-                        <a
-                            href="index.html"
-                            class="font-medium text-gray-700 hover:text-pink-600 transition"
-                        >
-                            Home
-                        </a>
-                    </li>
+    <!-- HOME -->
+    <li>
+        <a
+            href="index.html"
+            class="font-medium text-gray-700 hover:text-pink-600 transition"
+        >
+            Home
+        </a>
+    </li>
 
-                    <li>
-                        <a
-                            href="about.html"
-                            class="font-medium text-gray-700 hover:text-pink-600 transition"
-                        >
-                            About
-                        </a>
-                    </li>
+    <!-- SERVICES (ACTIVE PAGE) -->
+    <li>
+        <a
+            href="services.html"
+            class="font-semibold text-pink-600"
+        >
+            Services
+        </a>
+    </li>
 
-                    <li>
-                        <a
-                            href="services.html"
-                            class="font-semibold text-pink-600"
-                        >
-                            Services
-                        </a>
-                    </li>
+    <!-- ================= PAGES DROPDOWN ================= -->
+    <li class="relative group">
 
-                    <li>
-                        <a
-                            href="gallery.html"
-                            class="font-medium text-gray-700 hover:text-pink-600 transition"
-                        >
-                            Gallery
-                        </a>
-                    </li>
+        <!-- Dropdown Button -->
+        <button
+            type="button"
+            class="font-medium text-gray-700 hover:text-pink-600 transition flex items-center gap-1"
+        >
+            Pages
+            <i class="fa-solid fa-angle-down"></i>
+        </button>
 
-                    <li>
-                    <a
-                        href="blog.html"
-                        class="hover:text-[#E91E63] transition"
-                    >
-                        Blog
-                    </a>
-                </li>
+        <!-- Dropdown Menu -->
+        <div
+            class="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg rounded-lg min-w-45 z-50"
+        >
+            <a
+                href="about.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                About
+            </a>
 
-                    <li>
-                        <a
-                            href="contact.html"
-                            class="font-medium text-gray-700 hover:text-pink-600 transition"
-                        >
-                            Contact
-                        </a>
-                    </li>
+            <a
+                href="gallery.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Gallery
+            </a>
 
-                </ul>
-             </ul>
+            <a
+                href="blog.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Blog
+            </a>
+
+            <a
+                href="contact.html"
+                class="block px-4 py-3 hover:bg-pink-50 hover:text-pink-600"
+            >
+                Contact
+            </a>
+        </div>
+
+    </li>
+    <!-- =============== END OF DROPDOWN ================= -->
+
+</ul>  
 
 <details class="md:hidden relative">
     <summary class="list-none cursor-pointer text-3xl text-pink-600">
@@ -314,11 +327,11 @@
 
                 <ul class="space-y-4 text-[#6B7280]">
 
-                    <li>✔ Frontal Wig Installation</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Frontal Wig Installation</li>
 
-                    <li>✔ Closure Wig Installation</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Closure Wig Installation</li>
 
-                    <li>✔ Glueless Wig Installation</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Glueless Wig Installation</li>
 
                 </ul>
 
@@ -341,11 +354,11 @@
 
                 <ul class="space-y-4 text-[#6B7280]">
 
-                    <li>✔ Wig Washing & Treatment</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Wig Washing & Treatment</li>
 
-                    <li>✔ Wig Restoration & Silk Infusion</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Wig Restoration & Silk Infusion</li>
 
-                    <li>✔ Wig Customization</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Wig Customization</li>
 
                 </ul>
 
@@ -368,15 +381,15 @@
 
                 <ul class="space-y-4 text-[#6B7280]">
 
-                    <li>✔ Curling</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Curling</li>
 
-                    <li>✔ Straightening</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Straightening</li>
 
-                    <li>✔ Bridal Styling</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Bridal Styling</li>
 
-                    <li>✔ Hair Colouring</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Hair Colouring</li>
 
-                    <li>✔ Hair Bleaching</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Hair Bleaching</li>
 
                 </ul>
 
@@ -399,13 +412,13 @@
 
                 <ul class="space-y-4 text-[#6B7280]">
 
-                    <li>✔ Bump-Free Wig Construction</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Bump-Free Wig Construction</li>
 
-                    <li>✔ Accurate Head Measurement</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Accurate Head Measurement</li>
 
-                    <li>✔ Perfect Wig Fitting</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Perfect Wig Fitting</li>
 
-                    <li>✔ Personalized Wig Customization</li>
+                    <li><i class="fa-solid fa-check text-pink-600"></i> Personalized Wig Customization</li>
 
                 </ul>
 
@@ -1079,7 +1092,7 @@
 
                 <p class="text-sm text-gray-400 text-center md:text-right">
 
-                    Designed with ❤️ for elegance, confidence & beauty.
+                    Designed with for elegance, confidence & beauty.
 
                 </p>
 
