@@ -287,3 +287,5 @@ Can I book through WhatsApp?
 Do you offer home services?
 
 This all for now, thank you for your help.
+
+The footer is quite large, so to that effect i couldnt leave it sticky.
